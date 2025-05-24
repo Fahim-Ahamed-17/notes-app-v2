@@ -1,0 +1,70 @@
+
+
+form[name="login-form"]{
+    /* background-color: rgb(17, 17, 17); */
+    color: white;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    width: 350px;
+    height: 500px;
+
+    margin: auto;
+    padding: 1rem;
+    border-radius: 20px;
+    border: 2px solid white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    backdrop-filter: blur(50px) brightness(80%) saturate(150%);
+}
+
+.sign-in-fields{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100%;
+}
+
+input[type="text"] ,input[type="password"]{
+    width: 90%;
+    height: 40px;
+
+    border-radius: 8px;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    border: none;
+}
+
+.submit{
+    border-radius: 20px;
+    height: 2.5rem;
+    width: 80%;   
+
+    font-size: 1rem;
+    font-weight: bold;
+    /* color: white; */
+    border: none    ;
+}
+
+.sign-up-fields{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#sign-up{
+    font-size: 1rem;
+    height: 2.25rem;
+    width: 80%;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+
+    border-radius: 20px;
+
+}
